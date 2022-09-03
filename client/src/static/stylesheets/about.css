@@ -1,0 +1,80 @@
+.nav {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0 auto;
+	list-style: none;
+}
+.root {
+    column-gap: 40px; 
+}
+.navbar {
+    float: left;
+}
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	border: 1px solid #e7e7e7;
+	background-color: #f3f3f3;
+  }
+  
+  li {
+	float: left;
+  }
+  
+  li a {
+	display: block;
+	color:black;
+	text-align: center;
+	padding: 10px 10px;
+	text-decoration: none;
+  }
+
+  .digilocker {
+	float:center;
+	width: 700px;
+	padding: 10px 20px;
+	font-size: 20px;
+  }
+  
+  li a:hover:not(.active) {
+	background-color: #ddd;
+  }
+
+  .card1 {
+    margin-top: 4%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 24%;
+    padding: 50px 40px;
+    margin-left: 4%;
+    float: left;
+    height: 500px;
+  }
+  .card2 {
+    margin-top: 4%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 24%;
+    padding: 60px 60px;
+    margin-left: 4%;
+    float: left;
+    height: 500px;
+  }
+  .card3 {
+    margin-top: 4%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 24%;
+    padding: 80px 40px;
+    margin-left: 4%;
+    float: left;
+    height: 500px;
+  }
+  
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  

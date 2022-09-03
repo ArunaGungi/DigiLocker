@@ -1,0 +1,43 @@
+Create server folder
+
+1. inside server folder - install express, mongoose - { npm install express, mongoose, multer, body-parser, cors, [nodemon (--save --dev)] }
+2. npm init -y - to intialize the app
+3. Modify the init file to include "type":"module", "start":"nodemon index.js" and start the server using npm start
+4. Establish the connection with database
+
+server\uploads\2022-08-30T13-27-49.357Z-10000228_CompValus.png
+
+Completed work: - 
+
+1. Sending files to the server
+2. Fetching files from server
+3. Completed frontend and backend process to register a user and send it to database
+4. Now, render login page after registration and validate login credentials retrieved from database 
+5. Once registration and login are completed, concentrate on creating a page to upload file and store it in db
+6. Then view page to show all the pages from db
+7. delete files option 
+8. Then, start the OTP validation to upload files and download files
+
+Completed sending files and to display them through frontend
+Completed login validation
+Completed Backend OTP generation and sending to email and capturing in frontend
+Completed Sending OTP when user clicks on upload, view and delete files and validated OTP
+Completed  Allowing users to upload the docs only when logged in
+
+Frontend pages: - 
+1. Home page
+2. Login page
+3. Services page with cards - upload, download
+4. upload files page - input feilds
+5. Table to show the uploaded files
+6. option to delete
+
+
+Pending work: - 
+
+3. Fix download function
+4. Upload the project to Github
+
+
+Use npm update if pck.json is creating any issues
+use useEffect to render component only ocne also remove restrictmode from Index.js

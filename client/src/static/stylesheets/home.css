@@ -1,0 +1,77 @@
+.nav {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0 auto;
+	list-style: none;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	border: 1px solid #e7e7e7;
+	background-color: #f3f3f3;
+  }
+  
+  li {
+	float: left;
+  }
+  
+  li a {
+	display: block;
+	color:black;
+	text-align: center;
+	padding: 10px 10px;
+	text-decoration: none;
+  }
+
+  .digilocker {
+	width: 500px;
+	padding: 10px 20px;
+	font-size: 20px;
+  }
+  
+  li a:hover:not(.active) {
+	background-color: #ddd;
+  }
+  h4 {
+	color:white;
+  }
+  .steps {
+	float: left;
+	width: 500px;
+	padding:40px 20px;
+  }
+  .registerIcon {
+	float: left;
+	width: 250px;
+	padding: 10px 20px;
+  }
+  .otpicon {
+	float: left;
+	width: 250px;
+	padding: 10px 20px;
+  }
+  .arrowicon {
+	float: left;
+	width: 170px;
+	padding: 10px 20px;
+  }
+
+  .downloadicon {
+	float: left;
+	width: 250px;
+	padding: 10px 20px;
+  }
+
+  .icon {
+	width:500px;
+	height: 70px;
+  }
+  p{
+	float: right;
+	padding: 8px 8px;
+  }
+
